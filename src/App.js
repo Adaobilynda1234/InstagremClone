@@ -1,5 +1,6 @@
 import Nav from "./components/Nav";
 import Bio from "./components/Bio";
+import Gallery from "./components/Gallery";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <div className="container">
         <Bio />
       </div>
+      <Gallery />
     </div>
   );
 }
